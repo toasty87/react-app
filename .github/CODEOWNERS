@@ -1,4 +1,4 @@
 * @jwpacker
 *.js @jwpacker
-*.yml @jwpacker87
+*.yml @jwpacker
 /public/ @jwpacker
