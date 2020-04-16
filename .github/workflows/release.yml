@@ -1,12 +1,12 @@
-name: Notify on Release
-on:
-  release:
-    types: [published]
-jobs:
-  slack-message:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Create Mattermost Message
+#name: Notify on Release
+#on:
+#  release:
+#    types: [published]
+#jobs:
+#  slack-message:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Create Mattermost Message
 #        run: |
 #          echo "{\"text\":\"testing github action :tada:\"}" > mattermost.json
 #      - uses: mattermost/action-mattermost-notify@master
