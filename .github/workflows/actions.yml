@@ -12,7 +12,6 @@ jobs:
           body: Body
           assignees: |
             toasty87
-            toasty
       - run: |
           echo ${{ steps.issue.outputs.issue }}
       - uses: ./.github/actions/hello
